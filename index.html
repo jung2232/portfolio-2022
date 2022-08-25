@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fullpage js</title>
+
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/fullpage.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
+
+
+</head>
+<body>
+<!-- 마우스 -->
+<!-- partial:index.partial.html -->
+<div id="cursor">
+    <div class="cursor__circle"></div>
+</div>
+
+<section class="hide">
+    <div class="container">
+        <div class="image-container" cursor-class="arrow">
+            <img src="https://i.ibb.co/HDvyzVW/vase-2.jpg" alt="minimalist vase">
+        </div>
+    </div>
+</section>
+
+    <!-- pc-nav -->
+    <header>
+        
+        <nav class="pc_navbar">
+            <h2>logo</h2>
+            <ul class="gnb">
+                <li data-menuanchor="section1"><a href="#section1">HOME</a></li>
+                <li data-menuanchor="section2"><a href="#section2">SKILLS</a></li>
+                <li data-menuanchor="section3"><a href="#section3">PROJECTS</a></li>
+                <li data-menuanchor="section4"><a href="#section4">ABOUT</a></li>
+            </ul>
+            <ul class="navbar_link">
+                <a href=""><i class="fa-brands fa-github"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+            </ul>
+        </nav>
+
+
+
+        <!-- 햄버거 버튼 -->
+        <a href="#" class="hamburger-button">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+        
+        <!-- mo-nav -->
+        <div class="overlay">
+            <nav class="menu">
+                <ul>
+                    <li class="hover-line"><a href="#section1">HOME</a></li>
+                    <li class="hover-line"><a href="#section2">SKILLS</a></li>
+                    <li class="hover-line"><a href="#section3">PROJECTS</a></li>
+                    <li class="hover-line"><a href="#section4">ABOUT</a></li>
+                </ul>
+
+                <ul class="mo_navbar_link">
+                    <a href="https://github.com/jung2232"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/pwenyj/"><i class="fa-brands fa-instagram"></i></a>
+                </ul>
+            </nav>
+            
+        </div>
+    </header>
+    
+    <main id="fullpage">
+        <!-- section1 -->
+        <section class="section s1">
+            <h2>PORTFOLIO 2022</h2>
+            <div class="intro_text">
+                <p>
+                    안녕하세요,<br>
+                    <br>
+                    오늘보다 내일 더 발전하려고 노력하는<br>
+                    <br>
+                    웹퍼블리셔 정필원 입니다:)
+                </p>
+            </div>
+            <span class="scroll-btn">
+                <a href="/">
+                    <span class="mouse">
+                        <span></span>
+                    </span>
+                </a>
+                <p class="text">Scroll Down</p>
+            </span>
+        </section>
+
+        <!-- section2 -->
+        <section class="section s2">
+            <h2>SKILLS</h2>
+            <div class="SKILLS_textbox">
+                <div class="my">
+                    <img src="images/my.png" alt="my" id="my_img" class="floating floating1">
+                    <p class="text1">
+                        #웹퍼블리싱 #협업
+                        <br>
+                    </p>
+                    <p class="text2">
+                        <br>
+                        열심히 기본기를 다졌어요🙌
+                    </p>
+                </div>
+                <div class="text_box">
+                    <p class="text3">
+                        <br>
+                        HTML + CSS
+                    </p>
+                    <p class="text4">
+                        <br>   
+                        콘텐츠 내용에 알맞은 시맨틱 태그를 
+                        사용하여 코드를 작성합니다.<br>
+                        <br>
+                        웹 표준 및 웹 접근성을 준수하여
+                        반응형 레이아웃을 제작할 수 <br>
+                        <br>
+                        있습니다.
+                    </p>
+                    <p class="text3">
+                        <br>
+                        JavaScript + jQuery  
+                    </p>
+                    <p class="text4">
+                        <br>
+                        자바스크립트 ES6문법을
+                        이해하고 활용할 수 있습니다.<br>
+                        <br>
+                        제이쿼리를 활용하여 다양한 애니메이션과
+                        기능을 구현할 수 <br>
+                        <br>
+                        있습니다.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- section3 -->
+        <section class="section s3">
+            <h2>PROJECT</h2>
+            <!-- Swiper -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="pj_box">
+                            <div class="pj_apple">
+                                <img src="images/stabucks.png" alt="Apple">
+                            </div>
+                            <div class="pj_text">
+                                <p>
+                                    <span>StarBucks</span>
+                                </p>
+                                <p>
+                                    제작기간 : 2주 <br>
+                                    기여도 : 100%<br>
+                                    기술 : html, css, javascript,jquery<br>
+                                    사용프로그램 : Figma, vscode, phoshop<br>
+                                    사용페이지 : 메인페이지<br>
+                                    웹접근성 : 반응형
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="btn_s3">
+                        <a href="https://jung2232.github.io/starbuck-web/" class="btn">VIEW SITE</a>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="pj_box">
+                            <div class="pj_apple">
+                                <img src="images/jomalone.png" alt="Apple">
+                            </div>
+                            <div class="pj_text">
+                                <p>
+                                    <span>Jomalone</span>
+                                </p>
+                                <p>
+                                    제작기간 : 1주 <br>
+                                    기여도 : 100%<br>
+                                    기술 : html, css, javascript,jquery<br>
+                                    사용프로그램 : Figma, vscode, phoshop<br>
+                                    사용페이지 : 메인페이지<br>
+                                    웹접근성 : 반응형
+                                </p>
+                            </div>
+                        </div>
+                        <div class="btn_s3">
+                            <a href="https://jung2232.github.io/jomalone-project/"class="btn">VIEW SITE</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="pj_box">
+                            <div class="pj_apple">
+                                <img src="images/byredo.png" alt="Apple">
+                            </div>
+                            <div class="pj_text">
+                                <p>
+                                    <span>byredo</span>
+                                </p>
+                                <p>
+                                    제작기간 : 1주 <br>
+                                    기여도 : 100%<br>
+                                    기술 : html, css, javascript,jquery<br>
+                                    사용프로그램 : Figma, vscode, phoshop<br>
+                                    사용페이지 : 메인페이지<br>
+                                    웹접근성 : 반응형
+                                </p>
+                            </div>
+                        </div>
+                        <div class="btn_s3">
+                            <a href="https://jung2232.github.io/byredo/" class="btn">VIEW SITE</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="pj_box">
+                            <div class="pj_apple">
+                                <img src="images/HPIX.png" alt="Apple">
+                            </div>
+                            <div class="pj_text">
+                                <p>
+                                    <span>HPIX</span>
+                                </p>
+                                <p>
+                                    제작기간 : 1주 <br>
+                                    기여도 : 100%<br>
+                                    기술 : html, css, 부트스트랩<br>
+                                    사용프로그램 : Figma, vscode, <br>
+                                    사용페이지 : 메인페이지<br>
+                                    웹접근성 : 반응형
+                                </p>
+                            </div>
+                        </div>
+                        <div class="btn_s4">
+                            <a href="https://jung2232.github.io/HPIX-project/" class="btn">VIEW SITE</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <!-- section4 -->
+        <section class="section s4">
+            <h2>ABOUT</h2>
+            <div class="content">
+                <div class="my1">
+                    <img src="images/my1.png" alt="my1" class="floating floating1">
+                    <p>
+                        퍼블리싱을 좋아하는 웹 퍼블리셔 입니다. <br>
+                        좋아하는 일을 위해 정체되어있지 않고 <br>
+                        더 발전하기 위해 항상 노력하고자 합니다.<br>
+                        웹표준 및 웹접근성 퍼블리셔입니다.<br>
+                        최신 기술을 알기위해 끊임없이 공부중입니다.💪 
+                    </p>
+                </div>
+                <div class="my2">
+                    <img src="images/my2.png" alt="my2" class="floating floating1">
+                    <p>
+                        dntlsj12@naver.com<br>
+                        010 - 3017 - 8358
+                    </p>
+                </div>
+            </div>
+    
+        </section>
+    </main>
+
+        <!-- icon -->
+        <script src="https://kit.fontawesome.com/ac58e04816.js" crossorigin="anonymous"></script>
+        <!-- gshap -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js" integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <!-- jquery -->
+        <script
+        src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous"></script>
+        <!-- swiper -->
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        
+        <script src="js/fullpage.min.js"></script>
+        <!-- mian -->
+        <script src="js/main.js"></script>
+        <!-- 마우스  -->
+        <script src="js/script.js"></script>
+</body>
+</html>
